@@ -1,0 +1,6 @@
+minimumReleaseAge: 4320
+minimumReleaseAgeExclude:
+  # Stands in for an entry Renovate adds for a security update.
+  # Renovate security update: is-number@6.0.0
+  - is-number@6.0.0
+minimumReleaseAgeExcludePrune: true

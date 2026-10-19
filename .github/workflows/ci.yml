@@ -1,0 +1,11 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install
+      - name: Fail if pnpm install changed tracked files
+        run: git diff --exit-code

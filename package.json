@@ -3,6 +3,6 @@
   "private": true,
   "packageManager": "pnpm@12.11.2",
   "dependencies": {
-    "is-number": "6.0.0"
+    "is-number": "7.0.0"
   }
 }
